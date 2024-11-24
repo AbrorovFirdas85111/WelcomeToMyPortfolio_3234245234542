@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abrorov Firdavs Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Foundation CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites/dist/css/foundation.min.css">
+  <!-- Bulma CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Bootstrap header -->
+  <header class="bg-dark text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark container">
+      <a class="navbar-brand" href="#">Firdavs Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="text-center p-5">
+      <h1 class="display-4">Welcome to My Portfolio</h1>
+      <p>Frontend Developer - Creating Amazing User Experiences</p>
+    </div>
+  </header>
+<!-- About Section -->
+  <section id="about" class="py-16 bg-gray-100">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">About Me</h2>
+      <p class="text-lg text-gray-600 leading-relaxed">
+        I am Abrorov Firdavs, a passionate frontend developer with a knack for creating user-friendly and responsive web designs.
+      </p>
+      <div class="mt-8 flex justify-center">
+        <div class="bg-white p-6 shadow-lg rounded-lg mx-4">
+          <h3 class="text-2xl font-semibold mb-2">Skills</h3>
+          <p>HTML, CSS, JavaScript, React, Bootstrap, Tailwind</p>
+        </div>
+        <div class="bg-white p-6 shadow-lg rounded-lg mx-4">
+          <h3 class="text-2xl font-semibold mb-2">Experience</h3>
+          <p>2 years of experience as a frontend developer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Portfolio Section -->
+  <section id="portfolio" class="grid-container fluid">
+    <h2 class="text-center">My Work</h2>
+    <div class="grid-x grid-margin-x">
+      <div class="cell small-12 medium-6 large-4">
+        <div class="card">
+          <img src="img/photo_2024-11-24_21-48-37.jpg" alt="Project 1">
+          <div class="card-section">
+            <h4>Project 1</h4>
+            <p>Responsive e-commerce website built with Bootstrap and Tailwind CSS.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Add more projects similarly -->
+    </div>
+  </section>
+<!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="title has-text-centered">Get in Touch</h2>
+      <form action="#" method="POST">
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Your Name">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <input class="input" type="email" placeholder="Your Email">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Your Message"></textarea>
+          </div>
+        </div>
+        <div class="control">
+          <button class="button is-primary">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer class="footer has-background-dark">
+    <div class="content has-text-centered">
+      <p class="has-text-white">© 2024 Abrorov Firdavs. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
